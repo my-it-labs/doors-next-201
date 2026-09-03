@@ -1,3 +1,11 @@
+# Arnés del agente y material de trabajo (no subir al remoto público).
+# Las capturas curadas del curso viven en labs/img/, que sí se publica.
+.agent/
+
+# Dependencias y ruido local
 node_modules/
 *.log
 .DS_Store
+
+# Entorno local
+infra/.env
