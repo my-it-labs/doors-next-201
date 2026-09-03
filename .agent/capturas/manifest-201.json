@@ -1,0 +1,178 @@
+[
+  {
+    "archivo": "201-10-rm-portada.png",
+    "modulo": "201",
+    "lab": "Personalización del modelo de requisitos de un proyecto de ingeniería",
+    "titulo": "Personalización del modelo de requisitos",
+    "orden": 10,
+    "slug": "rm-portada",
+    "descripcion": "Portada de DOORS Next con la lista de proyectos",
+    "url": "https://localhost:9443/rm/web",
+    "capturada": "2026-09-03T08:46:34.985Z"
+  },
+  {
+    "archivo": "201-11-proyectos-lista.png",
+    "modulo": "201",
+    "lab": "Personalización del modelo de requisitos de un proyecto de ingeniería",
+    "titulo": "Personalización del modelo de requisitos",
+    "orden": 11,
+    "slug": "proyectos-lista",
+    "descripcion": "Lista de proyectos de DOORS Next",
+    "url": "https://localhost:9443/rm/web#action=com.ibm.rdm.web.pages.showAllProjectsPage",
+    "capturada": "2026-09-03T08:46:50.556Z"
+  },
+  {
+    "archivo": "201-12-proyecto-abierto.png",
+    "modulo": "201",
+    "lab": "Personalización del modelo de requisitos de un proyecto de ingeniería",
+    "titulo": "Personalización del modelo de requisitos",
+    "orden": 12,
+    "slug": "proyecto-abierto",
+    "descripcion": "Proyecto abierto en DOORS Next, con artefactos y carpetas",
+    "url": "https://localhost:9443/rm/web#action=com.ibm.rdm.web.pages.showFoundationProjectDashboard&componentURI=https%3A%2F%2Flocalhost%3A9443%2Frm%2Frm-projects%2F_qPXo4KdwEfGdNNHedQqJEw%2Fcomponents%2F_qg2acKdwEfGdNNHedQqJEw",
+    "capturada": "2026-09-03T08:47:08.193Z"
+  },
+  {
+    "archivo": "201-20-menu-administracion.png",
+    "modulo": "201",
+    "lab": "Personalización del modelo de requisitos de un proyecto de ingeniería",
+    "titulo": "Personalización del modelo de requisitos",
+    "orden": 20,
+    "slug": "menu-administracion",
+    "descripcion": "Menú de administración del proyecto desplegado",
+    "url": "https://localhost:9443/rm/web#action=com.ibm.rdm.web.pages.showFoundationProjectDashboard&componentURI=https%3A%2F%2Flocalhost%3A9443%2Frm%2Frm-projects%2F_qPXo4KdwEfGdNNHedQqJEw%2Fcomponents%2F_qg2acKdwEfGdNNHedQqJEw",
+    "capturada": "2026-09-03T08:48:27.002Z"
+  },
+  {
+    "archivo": "201-30-propiedades-proyecto.png",
+    "modulo": "201",
+    "lab": "Personalización del modelo de requisitos de un proyecto de ingeniería",
+    "titulo": "Personalización del modelo de requisitos",
+    "orden": 30,
+    "slug": "propiedades-proyecto",
+    "descripcion": "Editor de propiedades del proyecto: tipos de artefacto, atributos y tipos de enlace",
+    "url": "https://localhost:9443/rm/web#action=com.ibm.rdm.web.pages.showFoundationProjectDashboard&componentURI=https%3A%2F%2Flocalhost%3A9443%2Frm%2Frm-projects%2F_qPXo4KdwEfGdNNHedQqJEw%2Fcomponents%2F_qg2acKdwEfGdNNHedQqJEw",
+    "capturada": "2026-09-03T08:49:53.731Z"
+  },
+  {
+    "archivo": "201-40-proyecto-sin-tipos.png",
+    "modulo": "201",
+    "lab": "Personalización del modelo de requisitos de un proyecto de ingeniería",
+    "titulo": "Personalización del modelo de requisitos",
+    "orden": 40,
+    "slug": "proyecto-sin-tipos",
+    "descripcion": "Aviso de que el proyecto no tiene tipos de artefacto y las tres vías para añadirlos",
+    "url": "https://localhost:9443/rm/web#action=com.ibm.rdm.web.pages.showFoundationProjectDashboard&componentURI=https%3A%2F%2Flocalhost%3A9443%2Frm%2Frm-projects%2F_qPXo4KdwEfGdNNHedQqJEw%2Fcomponents%2F_qg2acKdwEfGdNNHedQqJEw",
+    "capturada": "2026-09-03T08:51:02.661Z"
+  },
+  {
+    "archivo": "201-41-plantillas-dialogo.png",
+    "modulo": "201",
+    "lab": "Personalización del modelo de requisitos de un proyecto de ingeniería",
+    "titulo": "Personalización del modelo de requisitos",
+    "orden": 41,
+    "slug": "plantillas-dialogo",
+    "descripcion": "Diálogo de aplicación de plantilla de proyecto con las plantillas disponibles",
+    "url": "https://localhost:9443/rm/web#action=com.ibm.rdm.web.pages.showFoundationProjectDashboard&componentURI=https%3A%2F%2Flocalhost%3A9443%2Frm%2Frm-projects%2F_qPXo4KdwEfGdNNHedQqJEw%2Fcomponents%2F_qg2acKdwEfGdNNHedQqJEw",
+    "capturada": "2026-09-03T08:51:16.318Z"
+  },
+  {
+    "archivo": "206-10-dng-inicio.png",
+    "modulo": "206",
+    "lab": "Gestión de configuraciones: componentes, streams, baselines y change sets",
+    "titulo": "Gestión avanzada de configuraciones",
+    "orden": 10,
+    "slug": "dng-inicio",
+    "descripcion": "DOORS Next recién abierto, todavía sin áreas de proyecto",
+    "url": "https://localhost:9443/rm/web",
+    "capturada": "2026-09-03T08:21:32.499Z"
+  },
+  {
+    "archivo": "206-11-areas-listado.png",
+    "modulo": "206",
+    "lab": "Gestión de configuraciones: componentes, streams, baselines y change sets",
+    "titulo": "Gestión avanzada de configuraciones",
+    "orden": 11,
+    "slug": "areas-listado",
+    "descripcion": "Listado de áreas de proyecto antes de crear la del curso",
+    "url": "https://localhost:9443/rm/admin#action=jazz.viewPage&id=com.ibm.team.process.ProjectAreaManagement",
+    "capturada": "2026-09-03T08:21:43.238Z"
+  },
+  {
+    "archivo": "206-12-area-nueva-form.png",
+    "modulo": "206",
+    "lab": "Gestión de configuraciones: componentes, streams, baselines y change sets",
+    "titulo": "Gestión avanzada de configuraciones",
+    "orden": 12,
+    "slug": "area-nueva-form",
+    "descripcion": "Formulario de creación de área de proyecto en DOORS Next",
+    "url": "https://localhost:9443/rm/admin#action=com.ibm.team.process.editProjectArea&itemId=new",
+    "capturada": "2026-09-03T08:21:54.912Z"
+  },
+  {
+    "archivo": "206-20-area-rellena.png",
+    "modulo": "206",
+    "lab": "Gestión de configuraciones: componentes, streams, baselines y change sets",
+    "titulo": "Gestión avanzada de configuraciones",
+    "orden": 20,
+    "slug": "area-rellena",
+    "descripcion": "Formulario de área de proyecto rellenado con \"Validacion 201\" y la plantilla de Gestión de requisitos",
+    "url": "https://localhost:9443/rm/admin#action=com.ibm.team.process.editProjectArea&itemId=new",
+    "capturada": "2026-09-03T08:22:53.679Z"
+  },
+  {
+    "archivo": "206-21-area-creada.png",
+    "modulo": "206",
+    "lab": "Gestión de configuraciones: componentes, streams, baselines y change sets",
+    "titulo": "Gestión avanzada de configuraciones",
+    "orden": 21,
+    "slug": "area-creada",
+    "descripcion": "Área de proyecto creada, con sus secciones de miembros y administradores",
+    "url": "https://localhost:9443/rm/admin#action=com.ibm.team.process.editProjectArea&itemId=_qPXo4KdwEfGdNNHedQqJEw",
+    "capturada": "2026-09-03T08:23:04.448Z"
+  },
+  {
+    "archivo": "206-22-areas-con-proyecto.png",
+    "modulo": "206",
+    "lab": "Gestión de configuraciones: componentes, streams, baselines y change sets",
+    "titulo": "Gestión avanzada de configuraciones",
+    "orden": 22,
+    "slug": "areas-con-proyecto",
+    "descripcion": "Listado de áreas de proyecto con la del curso ya creada",
+    "url": "https://localhost:9443/rm/admin#action=jazz.viewPage&id=com.ibm.team.process.ProjectAreaManagement",
+    "capturada": "2026-09-03T08:23:15.067Z"
+  },
+  {
+    "archivo": "206-40-cm-pestana.png",
+    "modulo": "206",
+    "lab": "Gestión de configuraciones: componentes, streams, baselines y change sets",
+    "titulo": "Gestión avanzada de configuraciones",
+    "orden": 40,
+    "slug": "cm-pestana",
+    "descripcion": "Pestaña de gestión de configuraciones del área de proyecto",
+    "url": "https://localhost:9443/rm/admin#action=com.ibm.team.process.editProjectArea&itemId=_qPXo4KdwEfGdNNHedQqJEw",
+    "capturada": "2026-09-03T08:24:21.454Z"
+  },
+  {
+    "archivo": "206-50-cm-antes-habilitar.png",
+    "modulo": "206",
+    "lab": "Gestión de configuraciones: componentes, streams, baselines y change sets",
+    "titulo": "Gestión avanzada de configuraciones",
+    "orden": 50,
+    "slug": "cm-antes-habilitar",
+    "descripcion": "Aviso de que habilitar la gestión de configuraciones es irreversible",
+    "url": "https://localhost:9443/rm/admin#action=com.ibm.team.process.editProjectArea&itemId=_qPXo4KdwEfGdNNHedQqJEw",
+    "capturada": "2026-09-03T08:25:30.807Z"
+  },
+  {
+    "archivo": "206-51-cm-habilitada.png",
+    "modulo": "206",
+    "lab": "Gestión de configuraciones: componentes, streams, baselines y change sets",
+    "titulo": "Gestión avanzada de configuraciones",
+    "orden": 51,
+    "slug": "cm-habilitada",
+    "descripcion": "Gestión de configuraciones ya habilitada en el área de proyecto",
+    "url": "https://localhost:9443/rm/admin#action=com.ibm.team.process.editProjectArea&itemId=_qPXo4KdwEfGdNNHedQqJEw",
+    "capturada": "2026-09-03T08:26:09.480Z"
+  }
+]

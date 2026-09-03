@@ -1,0 +1,41 @@
+# DOORS Next + ETM + Mailpit a partir de la imagen publicada (repo privado en Docker Hub).
+#
+# El tag de la imagen indica el mes en que caducan sus licencias de prueba:
+# exp-2026-11 significa que los trials de 60 días expiran el 1-2 de noviembre de 2026.
+# Para renovarlos existe una receta local que no requiere IBMid: ver infra/README.md.
+#
+# Requiere login previo en Docker Hub (ver infra/README.md y infra/up.sh):
+#   echo "$DOCKERHUB_TOKEN" | docker login -u "$DOCKERHUB_USER" --password-stdin
+#
+# Accesos (tras reenviar el puerto a localhost):
+#   DOORS Next:  https://localhost:9443/rm    (formador / formador)
+#   ETM:         https://localhost:9443/qm
+#   Administra:  https://localhost:9443/jts/admin
+#   Mailpit:     http://localhost:8025
+services:
+  doors:
+    image: ${DOORS_IMAGE:-davidpestana/elx-lab:exp-2026-11}
+    container_name: doors-next-201
+    pull_policy: always
+    ports:
+      - "9443:9443"   # HTTPS - DOORS Next /rm, admin /jts
+      - "9080:9080"   # HTTP
+      - "8025:8025"   # Mailpit (comparte red con doors; ver servicio mailpit)
+    mem_limit: 6g       # heap fijo 4G + overhead
+    shm_size: 1g
+    volumes:
+      - doors-conf:/opt/IBM/JazzTeamServer/server/conf
+    restart: unless-stopped
+
+  mailpit:
+    image: axllent/mailpit
+    container_name: doors-mailpit-201
+    # ELM está configurado con SMTP en localhost:1025. Compartimos la pila de red
+    # de doors para que Mailpit escuche en el mismo localhost del contenedor DOORS.
+    network_mode: "service:doors"
+    depends_on:
+      - doors
+    restart: unless-stopped
+
+volumes:
+  doors-conf:
