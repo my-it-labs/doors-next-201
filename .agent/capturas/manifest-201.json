@@ -77,6 +77,83 @@
     "capturada": "2026-09-03T08:51:16.318Z"
   },
   {
+    "archivo": "201-50-plantilla-elegida.png",
+    "modulo": "201",
+    "lab": "Personalización del modelo de requisitos de un proyecto de ingeniería",
+    "titulo": "Personalización del modelo de requisitos",
+    "orden": 50,
+    "slug": "plantilla-elegida",
+    "descripcion": "Plantilla \"Medical Devices Template\" seleccionada en el asistente",
+    "url": "https://localhost:9443/rm/web#action=com.ibm.rdm.web.pages.showFoundationProjectDashboard&componentURI=https%3A%2F%2Flocalhost%3A9443%2Frm%2Frm-projects%2F_qPXo4KdwEfGdNNHedQqJEw%2Fcomponents%2F_qg2acKdwEfGdNNHedQqJEw",
+    "capturada": "2026-09-03T08:53:24.188Z"
+  },
+  {
+    "archivo": "201-51-plantilla-aplicada.png",
+    "modulo": "201",
+    "lab": "Personalización del modelo de requisitos de un proyecto de ingeniería",
+    "titulo": "Personalización del modelo de requisitos",
+    "orden": 51,
+    "slug": "plantilla-aplicada",
+    "descripcion": "Proyecto tras aplicar la plantilla, ya con tipos de artefacto",
+    "url": "https://localhost:9443/rm/web#action=com.ibm.rdm.web.pages.showFoundationProjectDashboard&componentURI=https%3A%2F%2Flocalhost%3A9443%2Frm%2Frm-projects%2F_qPXo4KdwEfGdNNHedQqJEw%2Fcomponents%2F_qg2acKdwEfGdNNHedQqJEw",
+    "capturada": "2026-09-03T08:53:49.799Z"
+  },
+  {
+    "archivo": "201-60-artefactos-vista.png",
+    "modulo": "201",
+    "lab": "Personalización del modelo de requisitos de un proyecto de ingeniería",
+    "titulo": "Personalización del modelo de requisitos",
+    "orden": 60,
+    "slug": "artefactos-vista",
+    "descripcion": "Vista de artefactos del proyecto con las carpetas de la plantilla aplicada",
+    "url": "https://localhost:9443/rm/web#action=com.ibm.rdm.web.pages.showProjectDashboard&componentURI=https%3A%2F%2Flocalhost%3A9443%2Frm%2Frm-projects%2F_qPXo4KdwEfGdNNHedQqJEw%2Fcomponents%2F_qg2acKdwEfGdNNHedQqJEw&vvc.configuration=https%3A%2F%2Flocalhost%3A9443%2Frm%2Fcm%2Fstream%2F_qg_kYKdwEfGdNNHedQqJEw",
+    "capturada": "2026-09-03T08:55:11.812Z"
+  },
+  {
+    "archivo": "201-61-metamodelo-editor.png",
+    "modulo": "201",
+    "lab": "Personalización del modelo de requisitos de un proyecto de ingeniería",
+    "titulo": "Personalización del modelo de requisitos",
+    "orden": 61,
+    "slug": "metamodelo-editor",
+    "descripcion": "Editor del metamodelo con los tipos de artefacto de la plantilla",
+    "url": "https://localhost:9443/rm/web#action=com.ibm.rdm.web.pages.showAdminPage&componentURI=https%3A%2F%2Flocalhost%3A9443%2Frm%2Frm-projects%2F_qPXo4KdwEfGdNNHedQqJEw%2Fcomponents%2F_qg2acKdwEfGdNNHedQqJEw&vvc.configuration=https%3A%2F%2Flocalhost%3A9443%2Frm%2Fcm%2Fstream%2F_qg_kYKdwEfGdNNHedQqJEw",
+    "capturada": "2026-09-03T08:55:34.776Z"
+  },
+  {
+    "archivo": "202-10-usuarios-lista.png",
+    "modulo": "202",
+    "lab": "Alta de usuarios, licencias y permisos para el flujo de aprobación",
+    "titulo": "Gobernanza y flujos de trabajo",
+    "orden": 10,
+    "slug": "usuarios-lista",
+    "descripcion": "Listado de usuarios activos del servidor con sus licencias",
+    "url": "https://localhost:9443/jts/admin#action=com.ibm.team.repository.manageUsers",
+    "capturada": "2026-09-03T08:56:21.857Z"
+  },
+  {
+    "archivo": "202-11-usuario-nuevo-form.png",
+    "modulo": "202",
+    "lab": "Alta de usuarios, licencias y permisos para el flujo de aprobación",
+    "titulo": "Gobernanza y flujos de trabajo",
+    "orden": 11,
+    "slug": "usuario-nuevo-form",
+    "descripcion": "Formulario vacío de creación de usuario",
+    "url": "https://localhost:9443/jts/admin#action=com.ibm.team.repository.editUser&itemId=new",
+    "capturada": "2026-09-03T08:56:31.436Z"
+  },
+  {
+    "archivo": "202-30-licencias-inventario.png",
+    "modulo": "202",
+    "lab": "Alta de usuarios, licencias y permisos para el flujo de aprobación",
+    "titulo": "Gobernanza y flujos de trabajo",
+    "orden": 30,
+    "slug": "licencias-inventario",
+    "descripcion": "Inventario de licencias de acceso de cliente con unidades disponibles y caducidad",
+    "url": "https://localhost:9443/jts/admin#action=com.ibm.team.repository.admin.manageLicenses",
+    "capturada": "2026-09-03T08:56:52.073Z"
+  },
+  {
     "archivo": "206-10-dng-inicio.png",
     "modulo": "206",
     "lab": "Gestión de configuraciones: componentes, streams, baselines y change sets",
