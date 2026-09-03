@@ -121,6 +121,160 @@
     "capturada": "2026-09-03T08:55:34.776Z"
   },
   {
+    "archivo": "201-70-meta-tipos-de-artefactos.png",
+    "modulo": "201",
+    "lab": "Personalización del modelo de requisitos de un proyecto de ingeniería",
+    "titulo": "Personalización del modelo de requisitos",
+    "orden": 70,
+    "slug": "meta-tipos-de-artefactos",
+    "descripcion": "Sección \"Tipos de artefactos\" del editor del metamodelo",
+    "url": "https://localhost:9443/rm/web#action=com.ibm.rdm.web.pages.showAdminPage&componentURI=https%3A%2F%2Flocalhost%3A9443%2Frm%2Frm-projects%2F_qPXo4KdwEfGdNNHedQqJEw%2Fcomponents%2F_qg2acKdwEfGdNNHedQqJEw&vvc.configuration=https%3A%2F%2Flocalhost%3A9443%2Frm%2Fcm%2Fstream%2F_qg_kYKdwEfGdNNHedQqJEw",
+    "capturada": "2026-09-03T09:17:25.651Z"
+  },
+  {
+    "archivo": "201-71-meta-atributos-de-artefacto.png",
+    "modulo": "201",
+    "lab": "Personalización del modelo de requisitos de un proyecto de ingeniería",
+    "titulo": "Personalización del modelo de requisitos",
+    "orden": 71,
+    "slug": "meta-atributos-de-artefacto",
+    "descripcion": "Sección \"Atributos de artefacto\" del editor del metamodelo",
+    "url": "https://localhost:9443/rm/web#action=com.ibm.rdm.web.pages.showAdminPage&componentURI=https%3A%2F%2Flocalhost%3A9443%2Frm%2Frm-projects%2F_qPXo4KdwEfGdNNHedQqJEw%2Fcomponents%2F_qg2acKdwEfGdNNHedQqJEw&vvc.configuration=https%3A%2F%2Flocalhost%3A9443%2Frm%2Fcm%2Fstream%2F_qg_kYKdwEfGdNNHedQqJEw",
+    "capturada": "2026-09-03T09:17:36.254Z"
+  },
+  {
+    "archivo": "201-72-meta-tipos-de-datos-de-atributo.png",
+    "modulo": "201",
+    "lab": "Personalización del modelo de requisitos de un proyecto de ingeniería",
+    "titulo": "Personalización del modelo de requisitos",
+    "orden": 72,
+    "slug": "meta-tipos-de-datos-de-atributo",
+    "descripcion": "Sección \"Tipos de datos de atributo\" del editor del metamodelo",
+    "url": "https://localhost:9443/rm/web#action=com.ibm.rdm.web.pages.showAdminPage&componentURI=https%3A%2F%2Flocalhost%3A9443%2Frm%2Frm-projects%2F_qPXo4KdwEfGdNNHedQqJEw%2Fcomponents%2F_qg2acKdwEfGdNNHedQqJEw&vvc.configuration=https%3A%2F%2Flocalhost%3A9443%2Frm%2Fcm%2Fstream%2F_qg_kYKdwEfGdNNHedQqJEw",
+    "capturada": "2026-09-03T09:17:46.931Z"
+  },
+  {
+    "archivo": "201-73-meta-tipos-de-enlace.png",
+    "modulo": "201",
+    "lab": "Personalización del modelo de requisitos de un proyecto de ingeniería",
+    "titulo": "Personalización del modelo de requisitos",
+    "orden": 73,
+    "slug": "meta-tipos-de-enlace",
+    "descripcion": "Sección \"Tipos de enlace\" del editor del metamodelo",
+    "url": "https://localhost:9443/rm/web#action=com.ibm.rdm.web.pages.showAdminPage&componentURI=https%3A%2F%2Flocalhost%3A9443%2Frm%2Frm-projects%2F_qPXo4KdwEfGdNNHedQqJEw%2Fcomponents%2F_qg2acKdwEfGdNNHedQqJEw&vvc.configuration=https%3A%2F%2Flocalhost%3A9443%2Frm%2Fcm%2Fstream%2F_qg_kYKdwEfGdNNHedQqJEw",
+    "capturada": "2026-09-03T09:17:57.540Z"
+  },
+  {
+    "archivo": "201-74-meta-restricciones-de-enlace.png",
+    "modulo": "201",
+    "lab": "Personalización del modelo de requisitos de un proyecto de ingeniería",
+    "titulo": "Personalización del modelo de requisitos",
+    "orden": 74,
+    "slug": "meta-restricciones-de-enlace",
+    "descripcion": "Sección \"Restricciones de enlace\" del editor del metamodelo",
+    "url": "https://localhost:9443/rm/web#action=com.ibm.rdm.web.pages.showAdminPage&componentURI=https%3A%2F%2Flocalhost%3A9443%2Frm%2Frm-projects%2F_qPXo4KdwEfGdNNHedQqJEw%2Fcomponents%2F_qg2acKdwEfGdNNHedQqJEw&vvc.configuration=https%3A%2F%2Flocalhost%3A9443%2Frm%2Fcm%2Fstream%2F_qg_kYKdwEfGdNNHedQqJEw",
+    "capturada": "2026-09-03T09:18:08.120Z"
+  },
+  {
+    "archivo": "201-75-meta-validez-de-enlace.png",
+    "modulo": "201",
+    "lab": "Personalización del modelo de requisitos de un proyecto de ingeniería",
+    "titulo": "Personalización del modelo de requisitos",
+    "orden": 75,
+    "slug": "meta-validez-de-enlace",
+    "descripcion": "Sección \"Validez de enlace\" del editor del metamodelo",
+    "url": "https://localhost:9443/rm/web#action=com.ibm.rdm.web.pages.showAdminPage&componentURI=https%3A%2F%2Flocalhost%3A9443%2Frm%2Frm-projects%2F_qPXo4KdwEfGdNNHedQqJEw%2Fcomponents%2F_qg2acKdwEfGdNNHedQqJEw&vvc.configuration=https%3A%2F%2Flocalhost%3A9443%2Frm%2Fcm%2Fstream%2F_qg_kYKdwEfGdNNHedQqJEw",
+    "capturada": "2026-09-03T09:18:18.747Z"
+  },
+  {
+    "archivo": "201-80-tipos-datos-antes.png",
+    "modulo": "201",
+    "lab": "Personalización del modelo de requisitos de un proyecto de ingeniería",
+    "titulo": "Personalización del modelo de requisitos",
+    "orden": 80,
+    "slug": "tipos-datos-antes",
+    "descripcion": "Sección de tipos de datos de atributo, con los tipos que trae la plantilla",
+    "url": "https://localhost:9443/rm/web#action=com.ibm.rdm.web.pages.showAdminPage&componentURI=https%3A%2F%2Flocalhost%3A9443%2Frm%2Frm-projects%2F_qPXo4KdwEfGdNNHedQqJEw%2Fcomponents%2F_qg2acKdwEfGdNNHedQqJEw&vvc.configuration=https%3A%2F%2Flocalhost%3A9443%2Frm%2Fcm%2Fstream%2F_qg_kYKdwEfGdNNHedQqJEw",
+    "capturada": "2026-09-03T09:25:44.762Z"
+  },
+  {
+    "archivo": "201-81-tipo-datos-dialogo.png",
+    "modulo": "201",
+    "lab": "Personalización del modelo de requisitos de un proyecto de ingeniería",
+    "titulo": "Personalización del modelo de requisitos",
+    "orden": 81,
+    "slug": "tipo-datos-dialogo",
+    "descripcion": "Diálogo de creación de un tipo de datos de atributo",
+    "url": "https://localhost:9443/rm/web#action=com.ibm.rdm.web.pages.showAdminPage&componentURI=https%3A%2F%2Flocalhost%3A9443%2Frm%2Frm-projects%2F_qPXo4KdwEfGdNNHedQqJEw%2Fcomponents%2F_qg2acKdwEfGdNNHedQqJEw&vvc.configuration=https%3A%2F%2Flocalhost%3A9443%2Frm%2Fcm%2Fstream%2F_qg_kYKdwEfGdNNHedQqJEw",
+    "capturada": "2026-09-03T09:22:20.567Z"
+  },
+  {
+    "archivo": "201-81-tipo-datos-form.png",
+    "modulo": "201",
+    "lab": "Personalización del modelo de requisitos de un proyecto de ingeniería",
+    "titulo": "Personalización del modelo de requisitos",
+    "orden": 81,
+    "slug": "tipo-datos-form",
+    "descripcion": "Formulario de un tipo de datos nuevo, con las tres clases de valor",
+    "url": "https://localhost:9443/rm/web#action=com.ibm.rdm.web.pages.showAdminPage&componentURI=https%3A%2F%2Flocalhost%3A9443%2Frm%2Frm-projects%2F_qPXo4KdwEfGdNNHedQqJEw%2Fcomponents%2F_qg2acKdwEfGdNNHedQqJEw&vvc.configuration=https%3A%2F%2Flocalhost%3A9443%2Frm%2Fcm%2Fstream%2F_qg_kYKdwEfGdNNHedQqJEw",
+    "capturada": "2026-09-03T09:25:53.346Z"
+  },
+  {
+    "archivo": "201-82-tipo-datos-enumerado.png",
+    "modulo": "201",
+    "lab": "Personalización del modelo de requisitos de un proyecto de ingeniería",
+    "titulo": "Personalización del modelo de requisitos",
+    "orden": 82,
+    "slug": "tipo-datos-enumerado",
+    "descripcion": "Tipo de datos configurado como lista enumerada, con la tabla de valores",
+    "url": "https://localhost:9443/rm/web#action=com.ibm.rdm.web.pages.showAdminPage&componentURI=https%3A%2F%2Flocalhost%3A9443%2Frm%2Frm-projects%2F_qPXo4KdwEfGdNNHedQqJEw%2Fcomponents%2F_qg2acKdwEfGdNNHedQqJEw&vvc.configuration=https%3A%2F%2Flocalhost%3A9443%2Frm%2Fcm%2Fstream%2F_qg_kYKdwEfGdNNHedQqJEw",
+    "capturada": "2026-09-03T09:28:14.889Z"
+  },
+  {
+    "archivo": "201-82-tipo-datos-form-nuevo.png",
+    "modulo": "201",
+    "lab": "Personalización del modelo de requisitos de un proyecto de ingeniería",
+    "titulo": "Personalización del modelo de requisitos",
+    "orden": 82,
+    "slug": "tipo-datos-form-nuevo",
+    "descripcion": "Formulario en blanco para crear un tipo de datos de atributo",
+    "url": "https://localhost:9443/rm/web#action=com.ibm.rdm.web.pages.showAdminPage&componentURI=https%3A%2F%2Flocalhost%3A9443%2Frm%2Frm-projects%2F_qPXo4KdwEfGdNNHedQqJEw%2Fcomponents%2F_qg2acKdwEfGdNNHedQqJEw&vvc.configuration=https%3A%2F%2Flocalhost%3A9443%2Frm%2Fcm%2Fstream%2F_qg_kYKdwEfGdNNHedQqJEw",
+    "capturada": "2026-09-03T09:30:16.005Z"
+  },
+  {
+    "archivo": "201-82-tipos-datos-lista.png",
+    "modulo": "201",
+    "lab": "Personalización del modelo de requisitos de un proyecto de ingeniería",
+    "titulo": "Personalización del modelo de requisitos",
+    "orden": 82,
+    "slug": "tipos-datos-lista",
+    "descripcion": "Lista de tipos de datos de la plantilla, con el botón de alta en la cabecera",
+    "url": "https://localhost:9443/rm/web#action=com.ibm.rdm.web.pages.showAdminPage&componentURI=https%3A%2F%2Flocalhost%3A9443%2Frm%2Frm-projects%2F_qPXo4KdwEfGdNNHedQqJEw%2Fcomponents%2F_qg2acKdwEfGdNNHedQqJEw&vvc.configuration=https%3A%2F%2Flocalhost%3A9443%2Frm%2Fcm%2Fstream%2F_qg_kYKdwEfGdNNHedQqJEw",
+    "capturada": "2026-09-03T09:33:41.748Z"
+  },
+  {
+    "archivo": "201-83-tipo-datos-form-vacio.png",
+    "modulo": "201",
+    "lab": "Personalización del modelo de requisitos de un proyecto de ingeniería",
+    "titulo": "Personalización del modelo de requisitos",
+    "orden": 83,
+    "slug": "tipo-datos-form-vacio",
+    "descripcion": "Formulario en blanco de un tipo de datos de atributo nuevo",
+    "url": "https://localhost:9443/rm/web#action=com.ibm.rdm.web.pages.showAdminPage&componentURI=https%3A%2F%2Flocalhost%3A9443%2Frm%2Frm-projects%2F_qPXo4KdwEfGdNNHedQqJEw%2Fcomponents%2F_qg2acKdwEfGdNNHedQqJEw&vvc.configuration=https%3A%2F%2Flocalhost%3A9443%2Frm%2Fcm%2Fstream%2F_qg_kYKdwEfGdNNHedQqJEw",
+    "capturada": "2026-09-03T09:33:50.327Z"
+  },
+  {
+    "archivo": "201-84-tipo-datos-enumeracion.png",
+    "modulo": "201",
+    "lab": "Personalización del modelo de requisitos de un proyecto de ingeniería",
+    "titulo": "Personalización del modelo de requisitos",
+    "orden": 84,
+    "slug": "tipo-datos-enumeracion",
+    "descripcion": "Tipo de datos marcado como lista enumerada, con su tabla de valores",
+    "url": "https://localhost:9443/rm/web#action=com.ibm.rdm.web.pages.showAdminPage&componentURI=https%3A%2F%2Flocalhost%3A9443%2Frm%2Frm-projects%2F_qPXo4KdwEfGdNNHedQqJEw%2Fcomponents%2F_qg2acKdwEfGdNNHedQqJEw&vvc.configuration=https%3A%2F%2Flocalhost%3A9443%2Frm%2Fcm%2Fstream%2F_qg_kYKdwEfGdNNHedQqJEw",
+    "capturada": "2026-09-03T09:34:00.394Z"
+  },
+  {
     "archivo": "202-10-usuarios-lista.png",
     "modulo": "202",
     "lab": "Alta de usuarios, licencias y permisos para el flujo de aprobación",
@@ -152,6 +306,127 @@
     "descripcion": "Inventario de licencias de acceso de cliente con unidades disponibles y caducidad",
     "url": "https://localhost:9443/jts/admin#action=com.ibm.team.repository.admin.manageLicenses",
     "capturada": "2026-09-03T08:56:52.073Z"
+  },
+  {
+    "archivo": "202-30-areas-proyecto-lista.png",
+    "modulo": "202",
+    "lab": "Gobernanza: miembros, roles y permisos del area de proyecto",
+    "titulo": "Gobernanza y flujos de trabajo",
+    "orden": 30,
+    "slug": "areas-proyecto-lista",
+    "descripcion": "Lista de áreas de proyecto en la administración",
+    "url": "https://localhost:9443/rm/admin#action=com.ibm.team.process.manageProjectAreas",
+    "capturada": "2026-09-03T09:45:05.446Z"
+  },
+  {
+    "archivo": "202-31-area-proyecto-miembros.png",
+    "modulo": "202",
+    "lab": "Gobernanza: miembros, roles y permisos del area de proyecto",
+    "titulo": "Gobernanza y flujos de trabajo",
+    "orden": 31,
+    "slug": "area-proyecto-miembros",
+    "descripcion": "Área de proyecto con las secciones de miembros y administradores",
+    "url": "https://localhost:9443/rm/admin#action=com.ibm.team.process.editProjectArea&itemId=_qPXo4KdwEfGdNNHedQqJEw",
+    "capturada": "2026-09-03T09:45:21.065Z"
+  },
+  {
+    "archivo": "202-32-roles-disponibles.png",
+    "modulo": "202",
+    "lab": "Gobernanza: miembros, roles y permisos del area de proyecto",
+    "titulo": "Gobernanza y flujos de trabajo",
+    "orden": 32,
+    "slug": "roles-disponibles",
+    "descripcion": "Roles que define la plantilla de proceso de gestión de requisitos",
+    "url": "https://localhost:9443/rm/admin#action=com.ibm.team.process.editProjectArea&itemId=_qPXo4KdwEfGdNNHedQqJEw",
+    "capturada": "2026-09-03T09:47:41.511Z"
+  },
+  {
+    "archivo": "202-33-anadir-miembro-dialogo.png",
+    "modulo": "202",
+    "lab": "Gobernanza: miembros, roles y permisos del area de proyecto",
+    "titulo": "Gobernanza y flujos de trabajo",
+    "orden": 33,
+    "slug": "anadir-miembro-dialogo",
+    "descripcion": "Diálogo para seleccionar el usuario que se añade como miembro",
+    "url": "https://localhost:9443/rm/admin#action=com.ibm.team.process.editProjectArea&itemId=_qPXo4KdwEfGdNNHedQqJEw",
+    "capturada": "2026-09-03T09:49:32.139Z"
+  },
+  {
+    "archivo": "202-34-anadir-miembro-resultado.png",
+    "modulo": "202",
+    "lab": "Gobernanza: miembros, roles y permisos del area de proyecto",
+    "titulo": "Gobernanza y flujos de trabajo",
+    "orden": 34,
+    "slug": "anadir-miembro-resultado",
+    "descripcion": "Resultado de la búsqueda del usuario en el diálogo",
+    "url": "https://localhost:9443/rm/admin#action=com.ibm.team.process.editProjectArea&itemId=_qPXo4KdwEfGdNNHedQqJEw",
+    "capturada": "2026-09-03T09:49:42.719Z"
+  },
+  {
+    "archivo": "202-34-miembro-seleccionado.png",
+    "modulo": "202",
+    "lab": "Gobernanza: miembros, roles y permisos del area de proyecto",
+    "titulo": "Gobernanza y flujos de trabajo",
+    "orden": 34,
+    "slug": "miembro-seleccionado",
+    "descripcion": "Usuario trasladado a la lista de usuarios seleccionados",
+    "url": "https://localhost:9443/rm/admin#action=com.ibm.team.process.editProjectArea&itemId=_qPXo4KdwEfGdNNHedQqJEw",
+    "capturada": "2026-09-03T09:51:09.940Z"
+  },
+  {
+    "archivo": "202-35-miembro-roles.png",
+    "modulo": "202",
+    "lab": "Gobernanza: miembros, roles y permisos del area de proyecto",
+    "titulo": "Gobernanza y flujos de trabajo",
+    "orden": 35,
+    "slug": "miembro-roles",
+    "descripcion": "Paso del asistente en el que se asignan los roles al miembro",
+    "url": "https://localhost:9443/rm/admin#action=com.ibm.team.process.editProjectArea&itemId=_qPXo4KdwEfGdNNHedQqJEw",
+    "capturada": "2026-09-03T09:51:18.519Z"
+  },
+  {
+    "archivo": "202-36-miembro-rol-administrador.png",
+    "modulo": "202",
+    "lab": "Gobernanza: miembros, roles y permisos del area de proyecto",
+    "titulo": "Gobernanza y flujos de trabajo",
+    "orden": 36,
+    "slug": "miembro-rol-administrador",
+    "descripcion": "Rol Administrador asignado al miembro en el asistente",
+    "url": "https://localhost:9443/rm/admin#action=com.ibm.team.process.editProjectArea&itemId=_qPXo4KdwEfGdNNHedQqJEw",
+    "capturada": "2026-09-03T09:52:57.494Z"
+  },
+  {
+    "archivo": "202-37-miembro-anadido.png",
+    "modulo": "202",
+    "lab": "Gobernanza: miembros, roles y permisos del area de proyecto",
+    "titulo": "Gobernanza y flujos de trabajo",
+    "orden": 37,
+    "slug": "miembro-anadido",
+    "descripcion": "Área de proyecto con el miembro y su rol, pendiente de guardar",
+    "url": "https://localhost:9443/rm/admin#action=com.ibm.team.process.editProjectArea&itemId=_qPXo4KdwEfGdNNHedQqJEw",
+    "capturada": "2026-09-03T09:53:08.077Z"
+  },
+  {
+    "archivo": "202-38-area-guardada.png",
+    "modulo": "202",
+    "lab": "Gobernanza: miembros, roles y permisos del area de proyecto",
+    "titulo": "Gobernanza y flujos de trabajo",
+    "orden": 38,
+    "slug": "area-guardada",
+    "descripcion": "Área de proyecto guardada con el miembro y su rol",
+    "url": "https://localhost:9443/rm/admin#action=com.ibm.team.process.editProjectArea&itemId=_qPXo4KdwEfGdNNHedQqJEw",
+    "capturada": "2026-09-03T09:53:23.645Z"
+  },
+  {
+    "archivo": "202-39-metamodelo-editable.png",
+    "modulo": "202",
+    "lab": "Gobernanza: miembros, roles y permisos del area de proyecto",
+    "titulo": "Gobernanza y flujos de trabajo",
+    "orden": 39,
+    "slug": "metamodelo-editable",
+    "descripcion": "Editor del metamodelo con el botón de alta ya habilitado",
+    "url": "https://localhost:9443/rm/web#action=com.ibm.rdm.web.pages.showAdminPage&componentURI=https%3A%2F%2Flocalhost%3A9443%2Frm%2Frm-projects%2F_qPXo4KdwEfGdNNHedQqJEw%2Fcomponents%2F_qg2acKdwEfGdNNHedQqJEw&vvc.configuration=https%3A%2F%2Flocalhost%3A9443%2Frm%2Fcm%2Fstream%2F_qg_kYKdwEfGdNNHedQqJEw",
+    "capturada": "2026-09-03T09:54:22.911Z"
   },
   {
     "archivo": "206-10-dng-inicio.png",
@@ -218,6 +493,17 @@
     "descripcion": "Listado de áreas de proyecto con la del curso ya creada",
     "url": "https://localhost:9443/rm/admin#action=jazz.viewPage&id=com.ibm.team.process.ProjectAreaManagement",
     "capturada": "2026-09-03T08:23:15.067Z"
+  },
+  {
+    "archivo": "206-30-cm-pestana.png",
+    "modulo": "206",
+    "lab": "Gestion avanzada de configuraciones",
+    "titulo": "Gestión avanzada de configuraciones",
+    "orden": 30,
+    "slug": "cm-pestana",
+    "descripcion": "Pestaña de gestión de configuraciones del área de proyecto",
+    "url": "https://localhost:9443/rm/admin#action=com.ibm.team.process.editProjectArea&itemId=_qPXo4KdwEfGdNNHedQqJEw",
+    "capturada": "2026-09-03T09:55:31.294Z"
   },
   {
     "archivo": "206-40-cm-pestana.png",

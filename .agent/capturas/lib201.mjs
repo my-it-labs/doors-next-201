@@ -56,6 +56,44 @@ export async function entrar(page, { app = 'rm', usuario = 'formador', clave = '
   return page;
 }
 
+// Abre un proyecto y su editor de propiedades (el metamodelo). Es el punto de
+// partida de casi todos los laboratorios del 201.
+export async function abrirMetamodelo(page, proyecto = 'Validacion 201') {
+  await page.goto(`${BASE}/rm/web#action=com.ibm.rdm.web.pages.showAllProjectsPage`, {
+    waitUntil: 'domcontentloaded',
+    timeout: 60000,
+  });
+  await page.waitForTimeout(13000);
+  await page.locator(`a:has-text("${proyecto}")`).first().click({ timeout: 20000 }).catch(() => {});
+  await page.waitForTimeout(15000);
+
+  await page.evaluate(() => {
+    const g = [...document.querySelectorAll('a,span,div,button')].find(
+      (e) => e.offsetParent !== null && /administra/i.test(e.getAttribute('title') || e.getAttribute('aria-label') || ''),
+    );
+    if (g) g.click();
+  });
+  await page.waitForTimeout(4000);
+  await page.locator('a:has-text("Gestionar propiedades de proyecto"), [role="menuitem"]:has-text("Gestionar propiedades de proyecto")')
+    .first().click({ timeout: 20000 }).catch(() => {});
+  await page.waitForTimeout(17000);
+  return page;
+}
+
+// Cambia de sección dentro del editor del metamodelo.
+export async function seccionMetamodelo(page, seccion) {
+  const ok = await page.evaluate((s) => {
+    const e = [...document.querySelectorAll('a,li,span,div')].find(
+      (x) => x.offsetParent !== null && x.innerText.trim() === s,
+    );
+    if (!e) return false;
+    e.click();
+    return true;
+  }, seccion);
+  await page.waitForTimeout(8000);
+  return ok;
+}
+
 function leerManifiesto() {
   try {
     return JSON.parse(fs.readFileSync(MANIFEST, 'utf8'));
