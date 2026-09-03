@@ -1,4 +1,4 @@
-# Infraestructura — IBM DOORS Next 101
+# Infraestructura — IBM DOORS Next 201
 
 [← Volver al índice](../README.md)
 
@@ -29,6 +29,11 @@ reenvío del puerto; nunca por la URL `*.app.github.dev`).
 | Administración (JTS) | https://localhost:9443/jts/admin | `alumno` / `alumno` |
 | Mailpit (correo) | http://localhost:8025 | — |
 
+> [!NOTE]
+> En el 201 trabajarás además con usuarios que **crearás tú** en el módulo
+> [M202](../labs/M202-gobernanza/README.md), para poder probar el circuito de aprobación con
+> varios perfiles. La contraseña inicial de un usuario nuevo coincide con su **ID de usuario**.
+
 El certificado es autofirmado: acepta el aviso del navegador la primera vez, o
 instala el certificado del repo (útil en entornos corporativos). Guía completa:
 [certificado-autofirmado.md](certificado-autofirmado.md).
@@ -45,8 +50,8 @@ vez, varios GB). Está listo cuando en el log aparece `Application rm started`.
 
 1. Clona el repositorio y entra en él:
    ```bash
-   git clone https://github.com/my-it-labs/doors-next-101.git
-   cd doors-next-101
+   git clone https://github.com/my-it-labs/doors-next-201.git
+   cd doors-next-201
    ```
 2. Inicia sesión en Docker Hub (usuario y, como contraseña, el **token** del formador):
    ```bash

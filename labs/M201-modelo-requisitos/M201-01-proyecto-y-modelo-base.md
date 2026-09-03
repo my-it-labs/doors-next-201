@@ -28,8 +28,10 @@ regulado. Ese proyecto será tu campo de trabajo durante todo el curso.
 - Una cuenta con permisos de administración y licencia **DOORS Next Analyst**.
 
 > [!TIP]
-> **Nombra tu proyecto con tu nombre o iniciales** (por ejemplo `DPM - Marcapasos`). En el
-> servidor de clase conviven los proyectos de todos y se mezclan enseguida.
+> **Trabajas en tu propio servidor.** Cada alumno levanta su contenedor, así que no compartes
+> proyecto ni pisas el trabajo de nadie: puedes probar y romper con tranquilidad. Aun así,
+> ponle a tu proyecto un nombre reconocible (por ejemplo `Bomba de infusión`), porque lo vas a
+> tener delante durante las diez horas del curso.
 
 ---
 
