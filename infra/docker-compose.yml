@@ -1,8 +1,7 @@
 # DOORS Next + ETM + Mailpit a partir de la imagen publicada (pública en Docker Hub).
 #
-# El tag de la imagen indica el mes en que caducan sus licencias de prueba.
-# En Docker Hub público solo está exp-2026-08 (trials hasta mediados de agosto de 2026).
-# exp-2026-11 aún no se ha publicado.
+# El tag de la imagen indica el mes en que caducan sus licencias de prueba:
+# exp-2026-11 = trials de 60 días hasta el 1-2 de noviembre de 2026.
 #
 # Accesos (tras reenviar el puerto a localhost):
 #   DOORS Next:  https://localhost:9443/rm    (formador / formador)
@@ -11,7 +10,7 @@
 #   Mailpit:     http://localhost:8025
 services:
   doors:
-    image: ${DOORS_IMAGE:-davidpestana/elx-lab:exp-2026-08}
+    image: ${DOORS_IMAGE:-davidpestana/elx-lab:exp-2026-11}
     container_name: doors-next-201
     pull_policy: always
     ports:
