@@ -11,7 +11,7 @@ configuración, trazabilidad y colaboración dentro de IBM Engineering Lifecycle
 
 | Módulo | Laboratorios | Notas de entorno |
 |--------|--------------|------------------|
-| [**M201** · Modelo de requisitos](labs/M201-modelo-requisitos/README.md) | Entorno (fork/Codespace/`gh`), proyecto, metamodelo, extensión IEC 62304 | Validado en laboratorio |
+| [**M201** · Modelo de requisitos](labs/M201-modelo-requisitos/README.md) | Entorno (fork y Codespace en GitHub; `gh` solo para puertos), proyecto, metamodelo | Validado en laboratorio |
 | [**M202** · Gobernanza](labs/M202-gobernanza/README.md) | Usuarios/CAL, roles y permisos, flujo de aprobación | Validado en laboratorio |
 | [**M203** · Consultas y vistas](labs/M203-consultas-vistas/README.md) | Vistas por perfil, cobertura, colecciones | Pendiente de validar en UI |
 | [**M204** · Trazabilidad ELM](labs/M204-trazabilidad-elm/README.md) | Cadena RM, enlace a ETM, suspect links | ETM sí; EWM simulado |

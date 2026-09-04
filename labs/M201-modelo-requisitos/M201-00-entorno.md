@@ -15,10 +15,11 @@
 
 Cada alumno trabaja contra **su** contenedor, no contra un servidor compartido. Para eso:
 
-1. Haces **fork** de `my-it-labs/doors-next-201`.
-2. Creas un **Codespace** sobre *tu* fork.
-3. Arrancas DOORS con `bash infra/up.sh`.
-4. Reenvías el puerto **9443** a tu equipo (VS Code de escritorio o **GitHub CLI `gh`**).
+1. Haces **fork** de `my-it-labs/doors-next-201` en github.com.
+2. Creas un **Codespace** sobre *tu* fork, también en github.com (**Code → Codespaces**).
+3. Arrancas DOORS con `bash infra/up.sh` en la terminal del Codespace.
+4. Reenvías el puerto **9443** a tu equipo. Aquí sí entra **`gh`**: solo para el túnel.
+   La alternativa sin terminal es *Open in VS Code Desktop*.
 
 Si ya tienes Docker en el portátil y prefieres no usar la nube, ve directo a la
 [opción local de infra/README.md](../../infra/README.md#opción-a--docker-local).
@@ -41,42 +42,27 @@ Si ya tienes Docker en el portátil y prefieres no usar la nube, ve directo a la
 
 ### Paso 1 · Haz fork del repositorio
 
-**Acción (navegador)** — abre
+**Acción** — en el navegador, abre
 [https://github.com/my-it-labs/doors-next-201](https://github.com/my-it-labs/doors-next-201)
 y pulsa **Fork**. Deja tu usuario como destino y confirma.
 
-**Acción (GitHub CLI, si ya tienes `gh` en tu equipo)** — equivalente al botón Fork:
-
-```bash
-gh repo fork my-it-labs/doors-next-201 --default-branch-only
-```
-
 **Qué ves** — un repositorio `https://github.com/<TU-USUARIO>/doors-next-201` bajo tu cuenta.
-A partir de aquí **no** trabajas sobre `my-it-labs`: si el formador actualiza el curso,
-sincronizas el fork (botón *Sync fork* o `gh repo sync`).
+A partir de aquí **no** trabajas sobre `my-it-labs`. Si el formador actualiza el curso,
+en tu fork pulsa **Sync fork**.
 
 ---
 
 ### Paso 2 · Crea el Codespace
 
-**Acción (navegador)** — en **tu** fork: **Code → Codespaces → Create codespace on main**.
+**Acción** — en **tu** fork, pulsa **Code → Codespaces → Create codespace on main**.
 Acepta la máquina por defecto. La primera vez tarda unos minutos (instala Docker-in-Docker).
 
-**Acción (GitHub CLI)** — desde tu equipo, sin abrir github.com:
+**Qué ves** — un VS Code en el navegador, con el árbol del repositorio y una terminal.
+El fichero `.devcontainer/devcontainer.json` es el que pide Docker dentro de esa máquina.
 
-```bash
-gh codespace create --repo <TU-USUARIO>/doors-next-201 --branch main
-```
-
-Lista los Codespaces y anota el nombre (lo usarás al reenviar puertos):
-
-```bash
-gh codespace list
-```
-
-**Qué ves** — un VS Code en el navegador (o la confirmación de `gh`) con el árbol del
-repositorio y una terminal. El fichero `.devcontainer/devcontainer.json` es el que pide
-Docker y `gh` dentro de esa máquina.
+> [!IMPORTANT]
+> **No uses `gh` para crear el Codespace.** El fork y el arranque son botones de GitHub.
+> `gh` aparece más abajo, y solo para reenviar puertos.
 
 > [!TIP]
 > Si aparece *«no machine types are available»*, sincroniza el fork con `main` del curso y
@@ -120,8 +106,8 @@ Elige **una** vía. El detalle por sistema operativo está en
 **≡ → Open in VS Code Desktop**. Instala la extensión *GitHub Codespaces* si la pide.
 La pestaña **Ports** deja el **9443** (y el 8025) en tu máquina. No hace falta `gh`.
 
-**Vía 2 — GitHub CLI (`gh`)** — en una terminal **de tu equipo** (el túnel sale hacia
-fuera; si lo lanzas *dentro* del Codespace no te sirve el navegador local):
+**Vía 2 — GitHub CLI (`gh`), solo para el túnel** — en una terminal **de tu equipo**
+(si lo lanzas *dentro* del Codespace, tu navegador local no ve el puerto):
 
 ```bash
 # Una vez por máquina: autoriza el permiso de Codespaces
@@ -132,25 +118,13 @@ gh auth refresh -h github.com -s codespace
 gh codespace ports forward 9443:9443 8025:8025
 ```
 
-Si tienes varios Codespaces, añade `-c <nombre>` (el de `gh codespace list`).
+Si tienes varios Codespaces, `gh` te pide cuál; o añade `-c <nombre>`.
 **Deja esa terminal abierta.** `Ctrl+C` corta el túnel.
 
-Otros comandos útiles de `gh` en este curso:
-
-| Comando | Para qué |
-|---|---|
-| `gh repo fork my-it-labs/doors-next-201` | Crear tu copia del curso |
-| `gh repo sync` | Traer actualizaciones del original a tu fork |
-| `gh codespace create --repo <tú>/doors-next-201` | Levantar el laboratorio |
-| `gh codespace list` | Ver nombre y estado |
-| `gh codespace ports forward 9443:9443 8025:8025` | Túnel a `localhost` |
-| `gh codespace ports -c <nombre>` | Ver qué puertos ya están reenviados |
-| `gh codespace stop -c <nombre>` | Pausar (deja de gastar cuota) |
-
 > [!NOTE]
-> **Por qué `gh` y no la URL del Codespace** — el túnel hace que `localhost:9443` de tu
-> portátil sea el 9443 del contenedor. Sin eso, el navegador habla con otra máquina y Jazz
-> rechaza el login.
+> **Por qué hace falta el túnel** — Jazz solo acepta login en `https://localhost:9443`.
+> `gh codespace ports forward` hace que ese `localhost` sea el contenedor. La URL
+> `*.app.github.dev` del Codespace no sirve.
 
 ---
 
@@ -176,7 +150,7 @@ Usuario inicial: `alumno` / `alumno` (o `formador` / `formador` si la imagen lo 
 
 - El curso vive en **tu** fork.
 - El Codespace está arriba y DOORS responde en `localhost`.
-- Sabes parar el túnel (`Ctrl+C`) y el Codespace (`gh codespace stop` o la UI de GitHub).
+- Sabes parar el túnel (`Ctrl+C` en `gh`) y el Codespace (en GitHub: **Codespaces → Stop**).
 
 ## Comprueba
 

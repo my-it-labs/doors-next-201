@@ -62,7 +62,7 @@ que no cuadran, porque un requisito aparece contado en dos categorías.
 
 | Lab | Título | Qué harás | Tiempo |
 |---|---|---|---|
-| [M201-00](M201-00-entorno.md) | Fork, Codespace y arranque | Copiar el repo, levantar el laboratorio y entrar por `localhost` (también con `gh`) | ~15 min |
+| [M201-00](M201-00-entorno.md) | Fork, Codespace y arranque | Fork y Codespace en github.com; `gh` solo para reenviar puertos a `localhost` | ~15 min |
 | [M201-01](M201-01-proyecto-y-modelo-base.md) | Proyecto y modelo base | Crear tu área de proyecto y dotarla de un modelo de partida aplicando una plantilla | ~20 min |
 | [M201-02](M201-02-anatomia-del-metamodelo.md) | Anatomía del metamodelo | Recorrer las secciones del editor y leer un tipo de artefacto real de arriba abajo | ~15 min |
 | [M201-03](M201-03-extender-el-modelo.md) | Extender el modelo | Añadir una enumeración, un atributo, un tipo de requisito, un tipo de enlace y su restricción | ~25 min |
