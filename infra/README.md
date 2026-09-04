@@ -45,27 +45,23 @@ vez, varios GB). Está listo cuando en el log aparece `Application rm started`.
 
 ## Opción A — Docker local
 
-**Requisitos:** Docker (Docker Desktop en Windows/macOS, Docker Engine en Linux),
-~6-8 GB de RAM libres, y el token de Docker Hub que entrega el formador.
+**Requisitos:** Docker (Docker Desktop en Windows/macOS, Docker Engine en Linux) y
+~6-8 GB de RAM libres. La imagen es pública: no hace falta login en Docker Hub.
 
 1. Clona el repositorio y entra en él:
    ```bash
    git clone https://github.com/my-it-labs/doors-next-201.git
    cd doors-next-201
    ```
-2. Inicia sesión en Docker Hub (usuario y, como contraseña, el **token** del formador):
-   ```bash
-   docker login -u <USUARIO_DOCKERHUB>
-   ```
-3. Levanta el stack:
+2. Levanta el stack:
    ```bash
    docker compose -f infra/docker-compose.yml up -d
    ```
-4. Espera ~3-4 min. Sigue el arranque:
+3. Espera ~3-4 min. Sigue el arranque:
    ```bash
    docker compose -f infra/docker-compose.yml logs -f doors
    ```
-5. Abre `https://localhost:9443/rm` → acepta el certificado → `alumno` / `alumno`.
+4. Abre `https://localhost:9443/rm` → acepta el certificado → `alumno` / `alumno`.
 
 > No hace falta reenvío de puerto: ya estás en `localhost`.
 
@@ -75,10 +71,8 @@ vez, varios GB). Está listo cuando en el log aparece `Application rm started`.
 
 ## Opción B — Codespaces + reenvío de puerto
 
-**Requisitos:** los secretos `DOCKERHUB_USER` y `DOCKERHUB_TOKEN` configurados en
-**GitHub → Settings → Codespaces → Secrets** con acceso a este repositorio
-(los entrega el formador). Y un cliente para reenviar el puerto (VS Code de
-escritorio **o** GitHub CLI — ver tabla por SO más abajo).
+**Requisitos:** un cliente para reenviar el puerto (VS Code de escritorio **o**
+GitHub CLI — ver tabla por SO más abajo). La imagen se descarga sin secretos.
 
 El recorrido guiado para el alumno está en
 [M201-00](../labs/M201-modelo-requisitos/M201-00-entorno.md). Resumen:

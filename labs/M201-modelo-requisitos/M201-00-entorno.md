@@ -27,8 +27,6 @@ Si ya tienes Docker en el portátil y prefieres no usar la nube, ve directo a la
 ## Antes de empezar necesitas
 
 - Una cuenta de GitHub.
-- Los secretos de Codespaces **`DOCKERHUB_USER`** y **`DOCKERHUB_TOKEN`** (los entrega el
-  formador). Sin ellos `up.sh` no puede bajar la imagen, que es privada.
 - ~8 GB de RAM en el Codespace (máquina por defecto; si va justo, 4 núcleos / 16 GB).
 
 > [!IMPORTANT]
@@ -78,8 +76,7 @@ El fichero `.devcontainer/devcontainer.json` es el que pide Docker dentro de esa
 bash infra/up.sh
 ```
 
-El script inicia sesión en Docker Hub con los secretos, baja la imagen y levanta el compose.
-Espera a que RM esté arriba:
+El script baja la imagen (es pública) y levanta el compose. Espera a que RM esté arriba:
 
 ```bash
 docker compose -f infra/docker-compose.yml logs -f doors
@@ -89,11 +86,6 @@ Sal con `Ctrl+C` cuando veas `Application rm started` (o *La aplicación rm se h
 
 **Qué ves** — dos contenedores: DOORS y Mailpit. El primer `pull` son varios GB; los siguientes
 arranques son más cortos (~3–4 min).
-
-> [!WARNING]
-> Si `up.sh` dice que faltan `DOCKERHUB_USER` / `DOCKERHUB_TOKEN`, configúralos en
-> **tu usuario de GitHub → Settings → Codespaces → Secrets** (o en la organización, con
-> acceso a este fork) y **recrea** el Codespace: los secretos solo se inyectan al crearlo.
 
 ---
 
@@ -155,7 +147,7 @@ Usuario inicial: `alumno` / `alumno` (o `formador` / `formador` si la imagen lo 
 ## Comprueba
 
 - [ ] El repositorio en GitHub es `\<tu-usuario>/doors-next-201`, no el de `my-it-labs`.
-- [ ] `up.sh` terminó sin error de secretos.
+- [ ] `up.sh` terminó y el compose está arriba.
 - [ ] El log muestra que RM arrancó.
 - [ ] `https://localhost:9443/rm` muestra el login (no un `*.app.github.dev`).
 - [ ] Entras con `alumno` / `alumno`.
@@ -172,8 +164,8 @@ Usuario inicial: `alumno` / `alumno` (o `formador` / `formador` si la imagen lo 
 > - **`503` / `CRJAZ1972E`** → entraste antes de `Application rm started`. Espera o recrea el
 >   stack (`bash infra/down.sh` y otra vez `up.sh`). Detalle en
 >   [infra/README.md](../../infra/README.md#comprobaciones-y-problemas).
-> - **Creé el Codespace sobre `my-it-labs/doors-next-201`** → no tienes permiso de escritura y
->   los secretos pueden no aplicarse. Borra ese Codespace y créalo sobre **tu fork**.
+> - **Creé el Codespace sobre `my-it-labs/doors-next-201`** → no tienes permiso de escritura
+>   en el repo del curso. Borra ese Codespace y créalo sobre **tu fork**.
 
 ## 📝 Autoevaluación
 
