@@ -1,13 +1,13 @@
 # M201 · Personalización del modelo de requisitos
 
-[← Índice del curso](../../README.md) · [Siguiente página →](M201-01-proyecto-y-modelo-base.md)
+[← Índice del curso](../../README.md) · [Siguiente página →](M201-00-entorno.md)
 
 > [!NOTE]
 > **De qué va este módulo** — en el 101 usabas el modelo de información que venía dado:
 > unos tipos de artefacto, unos atributos y unos enlaces que alguien había definido antes.
 > Aquí te pones **al otro lado**: vas a diseñar ese modelo tú.
 >
-> ⏱️ ~1 h · 🎯 Resultado: un proyecto con un modelo de requisitos ampliado y coherente.
+> ⏱️ ~1 h 15 min · 🎯 Resultado: entorno en tu fork y un proyecto con un modelo de requisitos ampliado.
 
 ---
 
@@ -62,11 +62,12 @@ que no cuadran, porque un requisito aparece contado en dos categorías.
 
 | Lab | Título | Qué harás | Tiempo |
 |---|---|---|---|
+| [M201-00](M201-00-entorno.md) | Fork, Codespace y arranque | Copiar el repo, levantar el laboratorio y entrar por `localhost` (también con `gh`) | ~15 min |
 | [M201-01](M201-01-proyecto-y-modelo-base.md) | Proyecto y modelo base | Crear tu área de proyecto y dotarla de un modelo de partida aplicando una plantilla | ~20 min |
 | [M201-02](M201-02-anatomia-del-metamodelo.md) | Anatomía del metamodelo | Recorrer las secciones del editor y leer un tipo de artefacto real de arriba abajo | ~15 min |
 | [M201-03](M201-03-extender-el-modelo.md) | Extender el modelo | Añadir una enumeración, un atributo, un tipo de requisito, un tipo de enlace y su restricción | ~25 min |
 
-→ Empieza por **[M201-01 — Proyecto y modelo base](M201-01-proyecto-y-modelo-base.md)**.
+→ Empieza por **[M201-00 — Fork, Codespace y arranque](M201-00-entorno.md)**.
 
 ## Buenas prácticas de modelado
 

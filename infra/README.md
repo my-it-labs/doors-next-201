@@ -80,9 +80,14 @@ vez, varios GB). Está listo cuando en el log aparece `Application rm started`.
 (los entrega el formador). Y un cliente para reenviar el puerto (VS Code de
 escritorio **o** GitHub CLI — ver tabla por SO más abajo).
 
-1. Haz **fork** del repositorio.
-2. **Code → Codespaces → Create codespace** sobre tu fork (máquina por defecto;
-   opcional **4 núcleos / 16 GB** si DOORS va lento).
+El recorrido guiado para el alumno está en
+[M201-00](../labs/M201-modelo-requisitos/M201-00-entorno.md). Resumen:
+
+1. Haz **fork** de [my-it-labs/doors-next-201](https://github.com/my-it-labs/doors-next-201)
+   (botón *Fork*, o `gh repo fork my-it-labs/doors-next-201 --default-branch-only`).
+2. Crea el Codespace **sobre tu fork**: **Code → Codespaces → Create codespace on main**,
+   o `gh codespace create --repo <TU-USUARIO>/doors-next-201 --branch main`
+   (máquina por defecto; opcional **4 núcleos / 16 GB** si DOORS va lento).
 3. En la terminal del Codespace:
    ```bash
    bash infra/up.sh
@@ -144,6 +149,18 @@ gh codespace ports forward 9443:9443 8025:8025
 Elige tu Codespace si lo pide (o añade `-c <nombre-del-codespace>`). **Deja la
 terminal abierta** mientras trabajas. Abre `https://localhost:9443/rm`.
 `Ctrl+C` corta el túnel.
+
+El `ports forward` se lanza en **tu equipo**, no dentro del Codespace. Otros
+comandos de `gh` que usa este curso:
+
+```bash
+gh repo fork my-it-labs/doors-next-201 --default-branch-only
+gh repo sync
+gh codespace create --repo <TU-USUARIO>/doors-next-201 --branch main
+gh codespace list
+gh codespace ports -c <nombre>
+gh codespace stop -c <nombre>
+```
 
 > [!IMPORTANT]
 > **Error `HTTP 403 ... needs the "codespace" scope`** — tu sesión de `gh` no tiene

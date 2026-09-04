@@ -1,6 +1,6 @@
 # M201-01 · Proyecto y modelo base
 
-[← Página anterior](README.md) · [Siguiente página →](M201-02-anatomia-del-metamodelo.md)
+[← Página anterior](M201-00-entorno.md) · [Siguiente página →](M201-02-anatomia-del-metamodelo.md)
 
 > [!NOTE]
 > **Objetivo** — crear **tu** área de proyecto en DOORS Next, darte los permisos que de verdad
@@ -24,7 +24,7 @@ regulado. Ese proyecto será tu campo de trabajo durante todo el curso.
 
 ## Antes de empezar necesitas
 
-- El entorno arrancado y acceso a `https://localhost:9443/rm` (ver [infra/README.md](../../infra/README.md)).
+- Haber completado [M201-00](M201-00-entorno.md): fork, Codespace y `https://localhost:9443/rm`. El detalle de puertos y de `gh` está también en [infra/README.md](../../infra/README.md).
 - Una cuenta con permisos de administración y licencia **DOORS Next Analyst**.
 
 > [!TIP]
