@@ -71,13 +71,22 @@ una. Reconocerás las que trae la imagen preparada (`ADMIN`, `alumno`, `formador
 
 ### Paso 2 · Mira el inventario de licencias antes de gastarlas
 
-**Acción** — en el menú **Gestión de licencias de acceso de cliente**, revisa qué licencias hay
-y cuántas unidades quedan libres.
+**Acción** — en el menú superior pulsa **Servidor** y elige **Gestión de claves de licencia**.
+(También puedes abrir directamente
+`https://localhost:9443/jts/admin#action=com.ibm.team.repository.admin.manageLicenses`.)
 
 ![Inventario de licencias de acceso de cliente](../img/licencias-inventario.png)
 
-**Qué ves** — cada licencia con sus **unidades disponibles** y su **caducidad**. En el entorno de
-clase todas son licencias de **prueba (Trial)** de 60 días, con **10 unidades** cada una.
+**Qué ves** — una tabla con **todas** las claves instaladas: unidades totales, asignadas,
+disponibles y caducidad. En el entorno de clase las que importan son trials de 60 días, con
+**10 unidades** cada una (Analyst, Contributor, Quality Professional…).
+
+> [!WARNING]
+> **No es el mismo menú que *Gestión de licencias de acceso de cliente*.** Ese vive bajo
+> **Usuarios**, abre un desplegable de un solo tipo de licencia y suele caer en
+> *QM Data Collector (Internal)*, que no tiene nadie asignado. Sirve para ver *quién* tiene
+> una licencia concreta, no para ver el inventario. Si tu pantalla es un desplegable y una
+> tabla vacía, estás ahí: sal y entra por **Servidor**.
 
 > [!IMPORTANT]
 > **Las licencias se agotan y la clase se para.** Diez unidades por tipo es de sobra para este
@@ -197,6 +206,9 @@ en M201**. O aparece pero no puede hacer nada con él.
 > - **No veo el menú de creación de usuarios** → tu usuario no está en **JazzAdmins**, o estás en
 >   `/rm/admin` (administración de DOORS Next) en lugar de `/jts/admin` (administración del
 >   servidor). Son dos consolas distintas y se parecen.
+> - **Mi gestión de licencias es un desplegable y una tabla vacía** → estás en **Usuarios →
+>   Gestión de licencias de acceso de cliente**, no en el inventario. El paso 2 está en
+>   **Servidor → Gestión de claves de licencia**.
 > - **No queda ninguna unidad de la licencia** → alguien (probablemente tú, probando) la asignó a
 >   cuentas que ya no usa. Retírala de esas cuentas y quedará libre.
 > - **Perdí mi sesión de administrador al probar el usuario nuevo** → usa siempre una **ventana

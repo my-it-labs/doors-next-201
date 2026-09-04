@@ -17,7 +17,7 @@
 - Cuentas `autor` y `aprobador` miembros del proyecto (M202).
 - Rol que permita **Guardar revisión** (el *Administrador* y el *Aprobador* que configuraste).
 
-![El proyecto, tras la plantilla, ya muestra la pestaña Revisiones](../img/plantilla-aplicada.png)
+![Pestaña Revisiones del proyecto, todavía vacía](../img/pestana-revisiones.png)
 
 ---
 
@@ -27,6 +27,8 @@
 
 **Acción** — pestaña **Revisiones → Crear**. Nombre: `DR-01 Revision de diseño bomba`.
 Resumen: `Paquete v1 de seguridad y riesgos asociados.`
+
+![Diálogo Nueva revisión](../img/revision-nueva.png)
 
 ---
 

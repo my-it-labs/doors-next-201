@@ -14,9 +14,9 @@
 
 ### Paso 1 · Abre la política de firma
 
-**Acción** — área de proyecto → **Requisitos → Firma electrónica**.
+**Acción** — `/rm/admin` → tu área → **Requisitos → Firma electrónica**.
 
-![Firma electrónica: comentario y razones](../img/firma-electronica.png)
+![Política de firma electrónica: comentario, razón y lista de motivos](../img/firma-politica.png)
 
 **Qué ves** — puedes exigir **comentario**, exigir **razón** de una lista, y **añadir razones**.
 

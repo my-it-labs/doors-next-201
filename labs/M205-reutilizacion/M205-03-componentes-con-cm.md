@@ -15,7 +15,7 @@
 
 **Acción** — `/rm/admin` → tu área de producto → **Gestión de configuraciones**.
 
-![Pestaña de gestión de configuraciones](../img/cm-pestana.png)
+![Gestión de configuraciones: habilitar sigue gris sin la clave](../img/cm-pestana.png)
 
 - Si **Habilitar gestión de configuraciones** está **activo** (o ya habilitaste): sigue.
 - Si está **gris**: falta la **clave de activación** en propiedades avanzadas de RM. No hay

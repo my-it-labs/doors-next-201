@@ -14,7 +14,10 @@
 
 ### Paso 1 · El revisor deja una observación
 
-**Acción** — entra como `aprobador`. Abre `DR-01`. Selecciona el requisito de oclusión.
+**Acción** — entra como `aprobador`. En **Revisiones** (el filtro *Mis revisiones abiertas*)
+abre `DR-01`. Selecciona el requisito de oclusión.
+
+![Lista de revisiones: aquí debe aparecer DR-01 para el aprobador](../img/pestana-revisiones.png)
 
 **Acción** — añade un **comentario de revisión** (no un comentario informal suelto si la UI
 distingue): `Falta criterio cuantitativo de presion. No se puede ensayar el TC-Oclusion.`

@@ -28,8 +28,10 @@ PDF generado por una herramienta ausente.
 
 ### Paso 1 · Abre la vista de dirección
 
-**Acción** — aplica `Direccion - clase C`. Columnas: ID, Nombre, Estado, Criticidad, Mitiga,
-Validated By.
+**Acción** — en **Artefactos**, carpeta `01 Requirements` (o la vista `Direccion - clase C`).
+Columnas: ID, Nombre, Estado, Criticidad, Mitiga, Validated By.
+
+![Vista de trabajo sobre 01 Requirements: lo que ves es lo que exportas](../img/carpeta-requisitos-modulos.png)
 
 ---
 
@@ -58,7 +60,10 @@ un **corte**.
 ### Paso 4 · Corte de calidad ETM (manual)
 
 **Acción** — en `/qm`, abre el plan o la lista de casos. Anota cuántos casos están enlazados
-a requisitos de clase C. No habrá un widget cruzado mágico.
+a requisitos de clase C. No habrá un widget cruzado mágico. Si todavía no creaste el área
+de calidad, estás en esto:
+
+![ETM sin proyecto: el corte de calidad exige el área de M204-02](../img/etm-sin-proyectos.png)
 
 **Acción** — escribe en el widget HTML del panel tres números **con fecha**:
 

@@ -14,9 +14,9 @@
 
 ### Paso 1 · Mira lo que ya hay
 
-**Acción** — abre el panel del proyecto.
+**Acción** — abre el **Panel de instrumentos del proyecto**.
 
-![Panel tras aplicar la plantilla, con cambios recientes](../img/plantilla-aplicada.png)
+![Panel del proyecto: cambios recientes, miembros, revisiones y Añadir widget](../img/panel-proyecto.png)
 
 **Qué ves** — *Cambios recientes* y atajos. Es un comienzo, no un cuadro de mando.
 

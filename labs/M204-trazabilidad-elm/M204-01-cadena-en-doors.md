@@ -50,6 +50,8 @@ Requisito de Seguridad    --Mitiga------> Riesgo
 - tu **Requisito de Seguridad** de M201-03,
 - un **Risk** en `04 Hazard and Risk Analysis`.
 
+![Carpeta 01 Requirements con los tres módulos de la plantilla](../img/carpeta-requisitos-modulos.png)
+
 Anota los **ID**. Trabajarás solo con esos cuatro.
 
 > [!TIP]
@@ -60,8 +62,11 @@ Anota los **ID**. Trabajarás solo con esos cuatro.
 
 ### Paso 2 · Enlaza stakeholder → sistema
 
-**Acción** — abre el requisito de sistema. Panel derecho → **Enlaces** → añade enlace de tipo
+**Acción** — abre el módulo **System Requirements**. Entra en un requisito de sistema (no un
+encabezado). En el panel derecho, pestaña **Enlaces de artefacto** → añade enlace de tipo
 **Satisfies** (o *Satisfied By*, según el extremo desde el que crees) hacia el stakeholder.
+
+![Módulo System Requirements, donde se abre el requisito de sistema](../img/modulo-system-requirements.png)
 
 ![Tipos de enlace disponibles, varios con URI OSLC](../img/metamodelo-tipos-enlace.png)
 

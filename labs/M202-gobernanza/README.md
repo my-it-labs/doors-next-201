@@ -31,7 +31,7 @@ independientes, y basta que falle una para que no pueda:
 | Capa | Qué controla | Dónde se administra |
 |---|---|---|
 | **1. Cuenta de usuario** | Que exista y pueda autenticarse | Administración de JTS → *Usuarios* |
-| **2. Licencia (CAL)** | Qué producto puede usar y con qué alcance | Administración de JTS → *Gestión de licencias* |
+| **2. Licencia (CAL)** | Qué producto puede usar y con qué alcance | Administración de JTS → **Servidor** → *Gestión de claves de licencia* |
 | **3. Pertenencia y rol** | En qué proyectos participa y con qué papel | Área de proyecto → *Miembros* |
 | **4. Permiso de operación** | Qué acciones concretas puede ejecutar su rol | Área de proyecto → *Permisos* |
 

@@ -26,8 +26,13 @@ el material de dispositivo médico y lo conectas con la colección del M203-03.
 
 ### Paso 1 · Elige el alcance
 
-**Acción** — abre el módulo **System Requirements** (o el que estés usando de verdad). Evita
-baselinar un módulo que no hayas entendido: la foto sería ruido.
+**Acción** — en **Artefactos**, pestaña **Módulos**, o entra por `01 Requirements`. Abre el
+módulo **System Requirements** (o el que estés usando de verdad). Evita baselinar un módulo
+que no hayas entendido: la foto sería ruido.
+
+![Pestaña Artefactos: hay que seleccionar carpeta o módulo](../img/artefactos-todo.png)
+
+![Módulo System Requirements, alcance de la línea base](../img/modulo-system-requirements.png)
 
 ---
 

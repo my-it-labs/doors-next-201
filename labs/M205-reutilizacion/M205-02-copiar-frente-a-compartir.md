@@ -14,9 +14,11 @@
 
 ### Paso 1 · Copia un artefacto al otro proyecto
 
-**Acción** — en el producto, abre tu `Requisito de Seguridad`. **Más acciones** del artefacto
-o de la vista: **Duplicar** / **Copiar** / **Enviar a** (el nombre varía). Destino: la
-biblioteca, o crea el artefacto a mano pegando el texto.
+**Acción** — en el producto, **Artefactos → 01 Requirements**. Abre tu `Requisito de Seguridad`.
+**Más acciones** del artefacto o de la vista: **Duplicar** / **Copiar** / **Enviar a** (el
+nombre varía). Destino: la biblioteca, o crea el artefacto a mano pegando el texto.
+
+![Carpeta de requisitos del producto: origen de la copia experimental](../img/carpeta-requisitos-modulos.png)
 
 **Qué ves** — un **ID nuevo**. El historial **no** continúa. El enlace **Mitiga** **no** viaja
 salvo que copies también el riesgo o recrees el enlace.

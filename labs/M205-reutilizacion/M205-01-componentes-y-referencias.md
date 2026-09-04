@@ -27,14 +27,21 @@ aquel laboratorio.
 
 ### Paso 1 · Crea el área biblioteca
 
-**Acción** — `/rm/admin` → **Crear área de proyecto**.
+**Acción** — `/rm/admin` → **Áreas de proyecto → Áreas de proyecto activas**. Verás la de
+producto (en el servidor de clase, `Validacion 201` o la tuya). Pulsa **Crear área de
+proyecto**.
+
+![Áreas de proyecto activas en la administración de DOORS Next](../img/rm-areas-activas.png)
 
 | Campo | Valor |
 |---|---|
 | **Nombre** | `Biblioteca - requisitos de seguridad` |
 | **Resumen** | `Modelo y clausulas comunes. No es un producto.` |
 
-Misma plantilla de **proceso** que el producto. **Guarda**.
+Misma plantilla de **proceso** que el producto (*Plantilla de la aplicación Gestión de
+requisitos*). **Guarda**.
+
+![Formulario de creación del área biblioteca](../img/area-nueva-formulario.png)
 
 **Acción** — hazte **miembro** con rol **Administrador** (paso 4 de M201-01). Sin eso, no
 importas ni editas tipos.
@@ -50,8 +57,12 @@ No copies la plantilla Medical Devices entera otra vez. En la biblioteca vas a q
 - el tipo `Requisito de Seguridad`,
 - el tipo de enlace `Mitiga` y su restricción.
 
-**Acción** — en la biblioteca, **Gestionar propiedades** → **Importar propiedades del
-proyecto** (botón que ya viste en cada pestaña del metamodelo).
+**Acción** — en la biblioteca, **Gestionar propiedades de proyecto**. En la cabecera del
+editor (junto a Guardar) está **Importar propiedades del proyecto**.
+
+![Editor del metamodelo: el enlace de importar está en la cabecera](../img/metamodelo-con-importar.png)
+
+![Asistente Importar propiedades del proyecto](../img/importar-propiedades.png)
 
 **Acción** — origen: tu proyecto de **producto** (el de M201). Selecciona tipos de datos,
 atributos, tipos de artefacto y tipos de enlace relacionados con seguridad. Finaliza.
@@ -87,6 +98,8 @@ datos.
 
 **Acción** — en el área biblioteca, **Visión general → Compartir proceso**: ofrece compartir
 la configuración. En el área producto, al crear *futuras* áreas se podría heredar.
+
+![Visión general del área: bloque Compartir proceso](../img/vision-general-compartir.png)
 
 En las áreas **ya creadas**, heredar proceso a posteriori es limitado: lo importante es
 conocer la opción *Utilizar la configuración del proceso de otra área* **al crear**.

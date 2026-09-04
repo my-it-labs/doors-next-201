@@ -51,9 +51,17 @@ JTS ya la tiene registrada. Vas a:
 **Acción** — abre `https://localhost:9443/qm`. Acepta el certificado si hace falta. Inicia
 sesión.
 
-**Qué ves** — el panel de Engineering Test Management. Si pide terminar un asistente de
-proyecto, completa un área **de calidad** con nombre reconocible (`Calidad - bomba`) usando
-la plantilla por defecto.
+**Qué ves** — la administración de Engineering Test Management. En un servidor recién
+preparado **no hay áreas de proyecto de calidad**: el aviso *No hay áreas de proyecto* es
+el punto de partida, no un error.
+
+![ETM sin áreas de proyecto de calidad](../img/etm-sin-proyectos.png)
+
+**Acción** — pulsa **Crear área de proyecto**. Nombre: `Calidad - bomba`. Deja el proceso
+predeterminado de gestión de calidad. Añádete como miembro con un rol de administrador y
+**Guarda**.
+
+![Formulario para crear el área de calidad en ETM](../img/etm-crear-area.png)
 
 > [!NOTE]
 > **Por qué otra área** — RM y QM son aplicaciones distintas. Los requisitos no "viven" en

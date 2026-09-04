@@ -12,10 +12,12 @@
 
 ## Si el botón sigue deshabilitado
 
-![Gestión de configuraciones: habilitar es irreversible](../img/cm-pestana.png)
+![Gestión de configuraciones: habilitar es irreversible y el botón está gris](../img/cm-pestana.png)
 
 1. La clave se pide en **RM → Administración de aplicación → Propiedades avanzadas**
    (*Especifique la clave de licencia para habilitar la gestión de la configuración*).
+
+![Propiedades avanzadas de RM: el servicio de activación de CM vive aquí](../img/rm-propiedades-avanzadas.png)
 2. Se obtiene en jazz.net (versión de ELM de la imagen). El formador puede hornearla en la
    imagen para que **no** sea un taller de 40 minutos en clase.
 3. Después, en el área, **Habilitar gestión de configuraciones**. **No hay vuelta atrás.**

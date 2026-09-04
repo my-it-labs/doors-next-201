@@ -26,7 +26,9 @@
 ### Paso 1 · Prepara el alcance
 
 **Acción** — no exportes el proyecto entero. Abre la colección `Revision de diseño - bomba v1`
-o la vista `Direccion - clase C`.
+o la vista `Direccion - clase C` (desde **Artefactos**, carpeta o pestaña **Colecciones**).
+
+![Artefactos: Todo, Módulos y Colecciones — elige un alcance acotado](../img/artefactos-todo.png)
 
 > [!IMPORTANT]
 > Un ReqIF de 4.000 artefactos de ejemplo de plantilla es un incidente diplomático con el
@@ -66,8 +68,10 @@ Completa esta tabla para **tu** exportación (sí/no/parcial):
 
 ### Paso 4 · Política de importación (sin pegar a ciegas)
 
-**Acción** — **Importar ReqIF** en un **proyecto vacío de pruebas** (crea `Sandbox ReqIF` si
-hace falta), no sobre la biblioteca canónica.
+**Acción** — **Importar ReqIF** en un **proyecto vacío de pruebas** (crea `Sandbox ReqIF` desde
+`/rm/admin` si hace falta), no sobre la biblioteca canónica.
+
+![Crear el sandbox de importación como un área nueva](../img/area-nueva-formulario.png)
 
 **Qué ves** — el asistente pide mapeo. Si importas sobre el producto real, puedes **duplicar**
 tipos y artefactos (M205-02).
